@@ -1,0 +1,60 @@
+/* ------------------ */
+/* --- Custom CSS --- */
+/* ------------------ */
+
+/* --- EXAMPLE: Override Theme Colors --- */
+@import "/home/obey/.cache/wal/colors-steam.css";
+:root {
+	--bg: @background;
+	--fg: @foreground;
+	--border: #ffffff26;
+	--window_bg: @background;
+	--window_bg_transparent: #24242400;
+	--window_fg: @foreground;
+	--headerbar_backdrop: @background;
+	--headerbar_bg: #303030ff;
+	--headerbar_fg: @foreground;
+	--headerbar_shade: #00000061;
+	--popover_bg: #383838ff;
+	--popover_fg: @foreground;
+	--toast_bg: #000000b3;
+	--toast_fg: @foreground;
+	--view_bg: #1e1e1eff;
+	--view_fg: @foreground;
+	--accent: #78aeedff;
+	--accent_bg: @color1;
+	--accent_fg: @foreground;
+	--accent_disabled: #78aeed80;
+	--accent_hover_bg: #78aeed12;
+	--accent_active_bg: #78aeed29;
+	--destructive: #ff7b63ff;
+	--destructive_bg: #c01c28ff;
+	--destructive_fg: @foreground;
+	--destructive_disabled: #ff7b6380;
+	--destructive_hover_bg: #ff7b6312;
+	--destructive_active_bg: #ff7b6329;
+	--error: #ff7b63ff;
+	--error_bg: #c01c28ff;
+	--error_fg: @foreground;
+	--success: #8ff0a4ff;
+	--success_bg: #26a269ff;
+	--success_fg: @foreground;
+	--warning: #f8e45cff;
+	--warning_bg: #cd9309ff;
+	--warning_fg: @foreground;
+	--button_fg: @foreground;
+	--dim_label_fg: #ffffff8c;
+	--card_solid_bg: #3a3a3aff;
+	--focusring: #78aeed80;
+	--scrollbar: #ffffff33;
+	--scrollbar_hover: #ffffff66;
+	--scrollbar_active: #ffffff99;
+}
+
+/* --- EXAMPLE: Hide Whats New --- */
+/* -- DELETE BOTH LINES TO ENABLE
+#SteamDesktop .library_Container_3xRRJ div[class*="libraryhome_UpdatesContainer_"]
+{
+	display: none !important;
+}
+-- DELETE BOTH LINES TO ENABLE */
